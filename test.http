@@ -1,0 +1,15 @@
+GET http://localhost:4250/token/4d46caac-605b-4275-aec0-66e985d04ac0
+
+###
+
+POST http://localhost:4250/token
+Content-Type: application/json
+
+{
+    "user_id":"4d46caac-605b-4275-aec0-66e985d04ac0",
+    "input_token":12,
+    "output_token":256
+}
+
+###
+DELETE http://localhost:4250/token/4d46caac-605b-4275-aec0-66e985d04ac0
